@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "expo-app",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "android": {
+      "package": "io.habilelabs.test",
+      "icon": "./assets/icon.png",
+      "versionCode": 1,
+      "permissions": []
+    }
+  }
+}
